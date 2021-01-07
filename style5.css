@@ -1,0 +1,20 @@
+.container{
+    background: crimson;
+}
+div{
+    height:100px;
+    width:100px;
+    background:red;
+}
+.first{
+    background: forestgreen;
+    position: relative;
+    left:20px;
+    top: 20px;
+}
+.second{
+    background: fuchsia;
+}
+.third{
+    background: hotpink;
+}
