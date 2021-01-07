@@ -1,0 +1,53 @@
+
+.pc{
+font-size:21px;
+
+    color: blue;
+}
+.pc:hover{
+    color: black;
+    font-size:15px;
+}
+.vc{
+    color: red;
+    font-size: 12px;
+}
+.vc:hover{
+    color: tomato;
+    font-size: 23px;
+}
+.s{
+    width:420px;
+    height:30px;
+    outline: none;
+    transition: .5s;
+}
+.s:focus{
+    transition: .5s;
+    color: red;
+    font-size:20px;
+    outline: none;
+    width:520px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    box-shadow:12px 12px 30px gray;
+}
+/* li:first-child{
+    color: blueviolet;
+}
+li:last-child{
+    color: crimson;
+} */
+/* nth-child holo tomi ki solkol jor or bejor number serial e effect falyba  
+jemon 2n holo sokol jor element */
+li:nth-child(2n){ 
+color: cyan;
+background: darkorange;
+}
+li:nth-child(3){
+    color: black;
+    background: blue;
+}
+a:visited{
+    color: rgb(245, 6, 26);
+}
